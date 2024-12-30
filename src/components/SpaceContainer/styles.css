@@ -1,0 +1,117 @@
+.space-container {
+  box-sizing: border-box;
+  border-bottom-width: 1px;
+  border-color: rgba(70, 70, 70, 0.75);
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 1px;
+  align-content: flex-start;
+  align-items: flex-start;
+  background: #222
+    radial-gradient(
+      91% 83% at 50% 100%,
+      rgba(26, 29, 255, 0.3) 11.09938063063063%,
+      rgba(22, 70, 227, 0.37) 34.83072916666667%,
+      rgba(0, 0, 0, 0.15) 100%
+    );
+  border-radius: 16px;
+  display: flex;
+  flex: 1 0 0px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 60px;
+  height: 100%;
+  justify-content: flex-start;
+  overflow: hidden;
+  padding: 40px;
+  position: relative;
+  will-change: transform;
+}
+
+.space-container .space-container-frame {
+  flex: 1 0 0px;
+  height: 1px;
+  overflow: visible;
+  position: relative;
+  width: 100%;
+  z-index: 4;
+}
+
+.space-container .space-container-wrapper {
+  box-sizing: border-box;
+  -webkit-font-smoothing: inherit;
+  flex: none;
+  inset: -93px -138px -137px;
+  mask: radial-gradient(
+      50% 50% at 50% 63.3%,
+      rgba(0, 0, 0, 0.86) 35.07355011261261%,
+      rgba(0, 0, 0, 0) 78.17074887387389%
+    )
+    add;
+  overflow: visible;
+  pointer-events: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.space-container .space-container-wrapper .shape1 {
+  pointer-events: none;
+  box-sizing: border-box;
+  -webkit-font-smoothing: inherit;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #0554ff 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  border-radius: 100%;
+  bottom: 10px;
+  flex: none;
+  height: 340px;
+  left: calc(50.00000000000002% - 654px / 2);
+  opacity: 0.8;
+  overflow: hidden;
+  position: absolute;
+  width: 654px;
+  will-change: var(--framer-will-change-override, transform);
+}
+
+.space-container .space-container-wrapper .shape2 {
+  pointer-events: none;
+  box-sizing: border-box;
+  -webkit-font-smoothing: inherit;
+  border-radius: 100%;
+  bottom: 0;
+  box-shadow: 0 -20px 40px #059bffcc;
+  flex: none;
+  height: 199px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  will-change: var(--framer-will-change-override, transform);
+}
+
+.space-container .space-container-wrapper .shape3 {
+  pointer-events: none;
+  box-sizing: border-box;
+  -webkit-font-smoothing: inherit;
+  background: radial-gradient(
+    75% 75% at 50% 75%,
+    #000000 0%,
+    rgb(5, 13, 52) 46%,
+    rgb(5, 63, 255) 78.515625%,
+    rgb(135, 227, 255) 90.31179617117118%,
+    rgb(217, 246, 255) 100.9009009009009%
+  );
+  border-radius: 100%;
+  bottom: 11px;
+  filter: blur(6px);
+  flex: none;
+  height: 199px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  will-change: var(--framer-will-change-override, transform);
+}
